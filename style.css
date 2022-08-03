@@ -1,0 +1,49 @@
+.display {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+svg {
+	display: flex;
+	flex-direction: column;
+
+	margin: auto;
+	background-color: rgb(243, 226, 193);
+}
+.legend_note {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+#legend {
+	margin: 20px;
+	color: rgb(12, 12, 12);
+	background-color: white;
+}
+
+p {
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+}
+.title {
+	font-size: 1.5em;
+}
+.subtitle {
+	font-size: 1em;
+}
+
+#tooltip {
+	position: absolute;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	background-color: rgba(17, 17, 17, 0.7);
+	box-shadow: rgba(81, 81, 236, 0.35) 0px 5px 15px;
+	pointer-events: none;
+	visibility: hidden;
+	/* opacity: 0; */
+}

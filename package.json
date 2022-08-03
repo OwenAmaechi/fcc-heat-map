@@ -1,0 +1,16 @@
+{
+  "name": "fcc-heat-map",
+  "version": "1.0.0",
+  "description": "freecodecamp javascript chart heatmap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chart",
+    "heatmap",
+    "freecodecamp"
+  ],
+  "author": "Owen A",
+  "license": "ISC"
+}
